@@ -95,7 +95,6 @@ Aggregate metrics displayed at the top of the dashboard:
 | Frontend / Templates | **Blade + Bootstrap 5** | Blade is Laravel's native templating engine. Bootstrap delivers responsive layout and ready-made UI components without SPA overhead. |
 | Interactivity | **Livewire v4** | Reactive UI components for the admin panel (table dashboard, CRUD modals, real-time kitchen updates) without writing a separate JS framework. |
 | Database | **PostgreSQL 18** | Robust relational database with strong transactional guarantees, JSONB support for flexible extras/options data, and excellent query performance. |
-| Authentication | **Laravel Sanctum** | Token-based and session-based authentication. Manages owner, waiter, and kitchen staff sessions. Customer ordering is fully anonymous — no auth required. |
 | QR Code Generation | **simplesoftwareio/simple-qrcode** | Laravel package for server-side QR Code generation in PNG or SVG. Each QR encodes `/order?table=N`. |
 | File Storage | **Laravel Storage (local/S3-compatible)** | Handles product photo uploads. Configurable to local disk for MVP, easily switchable to S3 or compatible object storage in production. |
 | Multi-tenancy | **Single-database, `tenant_id` scoping** | All records are scoped by `tenant_id` enforced via a shared Eloquent trait with Global Scope on all models. No extra packages required. |
