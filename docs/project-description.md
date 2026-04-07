@@ -109,7 +109,7 @@ Customer (mobile browser)
     │
     │  Scans QR Code → /order?table=N
     ▼
-[ Blade + Bootstrap 5 (PWA) ]  ◄──►  [ Laravel 13 (Controllers, Eloquent, Policies, Sanctum) ]
+[ Blade + Bootstrap 5 (PWA) ]  ◄──►  [ Laravel 13 (Controllers, Eloquent, Policies) ]
                                                   │
                                     ┌─────────────┼──────────────┐
                                     ▼             ▼              ▼
@@ -289,8 +289,8 @@ Customer (mobile browser)
 
 ## Technical Requirements (Production-Ready)
 
-### Secure Authentication + Password Reset
-- Production-grade login with rate limiting, session security, and full password reset flows via **Laravel Sanctum**.
+### Secure Authentication + Password Reset**
+- Production-grade login with rate limiting, session security, and password reset flows.
 - Tenant-aware authentication: users belong strictly to one tenant and cannot access or view data from any other tenant.
 - Role-based route protection enforced via Laravel middleware and Policies for every route and Livewire action.
 
